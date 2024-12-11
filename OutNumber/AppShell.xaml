@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="OutNumber.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:OutNumber"
+    Shell.FlyoutBehavior="Disabled"
+    Title="NumberHandlingApp">
+
+    <Shell.Background>
+        <LinearGradientBrush StartPoint="0,0">
+            <GradientStop Color="#1B1B1B" Offset="0.0" />
+            <!-- Near Black -->
+            <GradientStop Color="#2E2E2E" Offset="1.0" />
+            <!-- Dark Gray -->
+        </LinearGradientBrush>
+    </Shell.Background>
+
+    <ShellContent
+        Title="Hometask3"
+        ContentTemplate="{DataTemplate local:MainPage}"
+        Route="MainPage" />
+
+</Shell>
