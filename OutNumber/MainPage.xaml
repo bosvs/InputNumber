@@ -5,10 +5,8 @@
 
     <ContentPage.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
-            <GradientStop Color="#1B1B1B" Offset="0.0" />
-            <!-- Near Black -->
-            <GradientStop Color="#2E2E2E" Offset="1.0" />
-            <!-- Dark Gray -->
+            <GradientStop Color="#1B1B1B" Offset="0.0" /> <!-- Near Black -->
+            <GradientStop Color="#2E2E2E" Offset="1.0" /> <!-- Dark Gray -->
         </LinearGradientBrush>
     </ContentPage.Background>
 
@@ -19,6 +17,7 @@
         <Entry
             x:Name="NumberEntry"
             Placeholder="Введіть ціле число" 
+            TextColor="White"
             Keyboard="Numeric"
             SemanticProperties.HeadingLevel="Level1" />
 

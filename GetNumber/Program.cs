@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Text;
 using System.Text.Json.Serialization.Metadata;
 
 class Program
 {
     public static void Main(string[] args)
     {
+        Console.OutputEncoding = Encoding.UTF8;
         Console.Write("Введiть цiле число: ");
         string userInput = Console.ReadLine();
         int result = 0;
